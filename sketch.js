@@ -74,7 +74,9 @@ function draw(){
     background("GREEN");
     Engine.update(engine);
 
-   
+    textSize(40);
+    text("Press Space To Play 1 More Chance!",50,50);
+    
     ground1.display();
     ground2.display();
     ground3.display();
